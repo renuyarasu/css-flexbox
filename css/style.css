@@ -58,11 +58,11 @@ html {
   }
 
   .box--1{
-    flex: 4;
+  width: 50px;
   }
   .box--2{
-    flex: 2;    
+   width: 50px;
   }
   .box--3{
-    flex: 4;    
+    flex: 1;    
   }
