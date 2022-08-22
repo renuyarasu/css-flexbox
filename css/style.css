@@ -37,8 +37,9 @@ html {
   
   .boxes {
     width: 400px;
-    width: 400px;
+    height: 400px;
     background-color: #027373;
+    display: flex;
   }
   
   .box--1 {
