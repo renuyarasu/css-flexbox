@@ -34,22 +34,15 @@ html {
     background-color: #1f1f1f;
   }
   
-  .nav-list {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 1rem;
+  .cards{
+    
+  background-color: rgb(21, 199, 125);
+  display: flex;
+  flex-direction: column;  
   }
   
-  .nav-list li { 
-
-    /* width: min-content; */
-    flex-shrink: 1;
-    flex-grow: 1;
-  }
-  
-  .nav-list li a {
-    color: #f1f1f1;
-    text-decoration: none;
+  .card{
+  padding: 10px;
+  flex-basis: 100%;
+  background-color: rgb(16, 153, 172); 
   }
