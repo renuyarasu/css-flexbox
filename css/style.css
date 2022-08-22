@@ -1,5 +1,5 @@
 /* CSS Flexbox Crash Course (22.08.2022) */
-/* https://www.youtube.com/watch?v=xN1BkNItTRk */
+/* https://www.youtube.com/watch?v=u044iM9xsWU */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap");
 
 * {
@@ -30,34 +30,25 @@ html {
    */
    body {
     margin: 0;
-    text-align: center;
     color: aliceblue;
     background-color: #1f1f1f;
   }
   
-  .boxes {
-    width: 400px;
-    width: 400px;
-    background-color: #027373;
+  .nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
   }
   
-  .box--1 {
-    width: 100px;
-    height: 100px;
-    background-color: #DAFDBA;
-    border: 2px solid #5FCDD9;
+  .nav-list li { 
+
+    /* width: min-content; */
+    flex-shrink: 1;
   }
   
-  .box--2 {
-    width: 100px;
-    height: 100px;
-    background-color: #DAFDBA;
-    border: 2px solid #5FCDD9;
-  }
-  
-  .box--3 {
-    width: 100px;
-    height: 100px;
-    background-color: #DAFDBA;
-    border: 2px solid #5FCDD9;
+  .nav-list li a {
+    color: #f1f1f1;
+    text-decoration: none;
   }
