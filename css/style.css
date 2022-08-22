@@ -40,6 +40,7 @@ html {
     height: 400px;
     background-color: #027373;
     display: flex;
+    justify-content: center;
   }
   
   .box--1 {
