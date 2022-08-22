@@ -41,6 +41,9 @@ html {
     background-color: #027373;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
   
   .box--1,  .box--2,  .box--3,  .box--4,  .box--5 {
