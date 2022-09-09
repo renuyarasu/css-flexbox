@@ -366,8 +366,9 @@ template {
   height: 50em;
 	display: flex;
   border: 5px solid #ff5;
-  justify-content: flex-end;
+  justify-content: center;
   flex-direction: column;
+  align-items: center;
 
 }
 .flex-container * {
