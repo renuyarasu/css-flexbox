@@ -362,19 +362,12 @@ template {
 [hidden] {
   display: none;
 }
-.flex-container div{
-	width: 15em;
-	height: 100px;
-	line-height: 40px;
-  flex: 0 1 auto;
-}
 .flex-container {
+  height: 50em;
 	display: flex;
-	flex-direction: row;
-  /* flex-flow: row wrap; */
-  flex-wrap: nowrap;
   border: 5px solid #ff5;
-
+  justify-content: flex-end;
+  flex-direction: column;
 
 }
 .flex-container * {
@@ -382,11 +375,13 @@ template {
 	padding: 0;
 }
 
-
-
+.flex-container div{
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+}
 .one {
 	background-color: crimson;
-  flex-basis: 10em;
 }
 
 .two {
@@ -396,26 +391,32 @@ template {
 .three {
 	background-color: goldenrod;
 }
+
 .four {
 	background-color: sandybrown;
 }
+
 .five {
 	background-color: goldenrod;
- 
+
 }
+
 .six {
 	background-color: chocolate;
 }
+
 .seven {
 	background-color: saddlebrown;
 }
+
 .eight {
 	background-color: sienna;
 }
+
 .nine {
 	background-color: brown;
 }
+
 .ten {
 	background-color: maroon;
 }
-
