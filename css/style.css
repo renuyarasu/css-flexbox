@@ -362,28 +362,31 @@ template {
 [hidden] {
   display: none;
 }
-
+.flex-container div{
+	width: 15em;
+	height: 100px;
+	line-height: 40px;
+  flex: 0 1 auto;
+}
 .flex-container {
-	display: inline-flex;
-	flex-direction: column;
+	display: flex;
+	flex-direction: row;
   /* flex-flow: row wrap; */
   flex-wrap: nowrap;
   border: 5px solid #ff5;
+
+
 }
 .flex-container * {
 	margin: 0;
 	padding: 0;
 }
 
-.flex-container div{
-	width: 100px;
-	height: 100px;
-	line-height: 40px;
-}
+
 
 .one {
 	background-color: crimson;
-
+  flex-basis: 10em;
 }
 
 .two {
@@ -398,7 +401,7 @@ template {
 }
 .five {
 	background-color: goldenrod;
-  order: -1;
+ 
 }
 .six {
 	background-color: chocolate;
